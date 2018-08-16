@@ -1,5 +1,5 @@
 class Answer < ApplicationRecord
   belongs_to :question
 
-  enum correctness: {wrong: 0, correct: 1}
+  enum correctness: {false: 0, true: 1}
 end
